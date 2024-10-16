@@ -349,7 +349,7 @@ header{
     background-color: #ed8f37; /* Light background color */
     text-align: center;
     width: 84%;
-    height: 47rem;
+    height: 48rem;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px; /* Rounded corners */
@@ -399,7 +399,7 @@ header{
 
 .side-image {
     position: relative;
-    top: -20.9rem;
+    top: -21.2rem;
     left: 4rem;
     width: 310px; /* 30% of the viewport width */
     height: 205px; /* 20% of the viewport height */
