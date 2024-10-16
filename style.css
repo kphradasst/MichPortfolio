@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #e8bc7d;
+    color: #e8bc7d;
+}
+header{
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.home-img img{
+    position: relative;
+    width: 48vw;
+    box-shadow: 0 0 25px solid #07e88a;
+    cursor: pointer;
+    transition: 0.2s linear;
+    border-radius: 10px; /* Rounded corners */
+
+}
+
+.home-img img:hover{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.home-img-container {
+    position: relative;
+    width: 50vw; /* Adjust the width of the container as per your design */
+    margin: 0 auto; /* Center the image container */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.home-img-container img {
+    width: 166%;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+.home-container {
+    margin-top: 10px; /* Add space between the image and the container */
+    padding: 20px;
+    background-color: #ed8f37; /* Light background color */
+    text-align: center;
+    width: 84%;
+    height: 105%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+.home-container h2 {
+    font-size: 23rem;
+    color: #fcfcfc; /* Darker text */
+    font-weight: 900;
+
+}
+.home-container h3 {
+    position: relative;
+    font-size: 1.5rem;
+    color: #fcfcfc;
+    font-weight: 100;
+    margin-bottom: 10px; /* Space between h3 elements */
+    text-align: left; /* Aligns text to the left */
+    left: ; /* Reset any previous left positioning */
+    top: -20%;  /* Reset any previous top positioning */
+    padding: 0 20px; /* Optional padding for better readability */
+}
+.home-container h5 {
+    position: relative;
+    font-size: 1.5rem;
+    color: #fcfcfc;
+    font-weight: 200;
+    margin-bottom: 10px; /* Space between h3 elements */
+    text-align: Justify; /* Aligns text to the left */
+    left: 5rem; /* Reset any previous left positioning */
+    top: -15rem;  /* Reset any previous top positioning */
+    padding: 0 20px; /* Optional padding for better readability */
+}
+.home-container h4{
+    position: relative;
+    font-size: 1.5rem;
+    color: #fcfcfc;
+    font-weight: 200;
+    margin-bottom: 10px; /* Space between h3 elements */
+    text-align: Justify; /* Aligns text to the left */
+    left: -2rem; /* Reset any previous left positioning */
+    top: 1rem;  /* Reset any previous top positioning */
+    padding: 0 20px; /* Optional padding for better readability */
+}
+
+.side-image {
+    position: relative;
+    top: -44rem;
+    left: 83rem;
+    width: 30vw; /* 30% of the viewport width */
+    height: 55vh; /* 20% of the viewport height */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+
+.home-container p {
+    position: relative;
+    top: -18rem;
+    line-height: -20rem;
+    left: 35%;
+    font-size: 10rem;
+    text-align: center;
+    font-family: 'Vladimir Script', cursive;
+    color: #822205; /* Slightly lighter text */
+   transform: rotate(-12deg); /* Rotates the text slightly */
+   
+}
+
+.overlay-text {
+    position: absolute;
+    top: 43%;
+    left: 37%;
+    line-height: 13rem;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 17rem;
+    font-weight: 5%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: #f06326;
+    pointer-events: none; /* So the text doesn't interfere with any clicks on the image */
+}
+.overlay-text2 {
+    position: absolute;
+    top: 75%;
+    left: 83%;
+    line-height: 11rem;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Abril Fatface';
+    font-size: 20rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 7);
+    text-align: center;
+    color: #f06326;
+    pointer-events: none; /* So the text doesn't interfere with any clicks on the image */
+}
+.home-container2 {
+    margin-top: -380px;
+    padding: 20px;
+    background-color: #f7f0ed; /* Light background color */
+    text-align: center;
+    width: 84%;
+    height: 105%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.home-container2 h2 {
+    font-size: 12rem;
+    padding: 40px;
+    text-align: left;
+    line-height: 13rem;
+    color: #070807; /* Darker text */
+    font-weight: 1000;
+    font-family: Copperplate, sans-serif;
+    font-weight: 800;
+
+}
+.home-container2 h3 {
+    position: relative;
+    font-size: 1.6rem;
+    color: #070807;
+    font-weight: 600;
+    margin-bottom: 10px; /* Space between h3 elements */
+    text-align: left; /* Aligns text to the left */
+    left: 3rem; /* Reset any previous left positioning */
+    top: -20%;  /* Reset any previous top positioning */
+    padding: 0 40px; /* Optional padding for better readability */
+}
+.home-container2 h4 {
+    position: relative;
+    font-size: 1.4rem;
+    color: #070807;
+    font-weight: 600;
+    margin-bottom: 3px; /* Space between h3 elements */
+    text-align: left; /* Aligns text to the left */
+    left: 96rem; /* Reset any previous left positioning */
+    top: -80%;  /* Reset any previous top positioning */
+    padding: 0 40px; /* Optional padding for better readability */
+}
+.side-image2 {
+    position: relative;
+    top: -110rem;
+    left: 26rem;
+    width: 700x; /* 30% of the viewport width */
+    height: 950px; /* 20% of the viewport height */
+    border-radius: 5px; /* Optional: rounded corners */
+
+}
+#menu {
+    position: fixed;
+    top: 4%;
+    left: 10%;
+    opacity: 80%;
+    padding: 20px;
+    color: #9025e8;
+    display: flex;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0); /* Slightly transparent background */
+    z-index: 100;
+}
+
+#menu a {
+    color: #c21d08; /* Text color */
+    font-family: 'Broadway', sans-serif;
+    font-size: 1.9rem; /* Adjust the font size */
+    font-weight: 700;
+    text-transform: uppercase; /* Optional: uppercase text */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#menu a:hover {
+    color: #007bff; /* Change to a highlight color on hover */
+}
+
+#menu a.active {
+    color: #007bff; /* Active link color */
+    font-weight: 600;
+}
+@media(max-width:995px){
+.overlay-text {
+    position: absolute;
+    top: 43%;
+    left: 36%;
+    line-height: 4rem;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 6rem;
+    font-weight: 5%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: #e8bc7d;
+    pointer-events: none; /* So the text doesn't interfere with any clicks on the image */
+}
+.overlay-text2 {
+    position: absolute;
+    top: 70%;
+    left: 83%;
+    line-height: 11rem;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Abril Fatface';
+    font-size: 9rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 7);
+    text-align: center;
+    color: #f06326;
+    pointer-events: none; /* So the text doesn't interfere with any clicks on the image */
+}
+.home-container2 {
+    margin-top: -380px;
+    padding: 20px;
+    background-color: #f7f0ed; /* Light background color */
+    text-align: center;
+    width: 100%;
+    height: 105%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.home-container2 h2 {
+    font-size: 1.2rem;
+    padding: 40px;
+    text-align: left;
+    line-height: 13rem;
+    color: #070807; /* Darker text */
+    font-weight: 300;
+    font-family: Copperplate, sans-serif;
+    font-weight: 800;
+
+}
+.home-container2 h3 {
+    position: relative;
+    font-size: 1.6rem;
+    color: #070807;
+    font-weight: 600;
+    margin-bottom: 10px; /* Space between h3 elements */
+    text-align: left; /* Aligns text to the left */
+    left: 3rem; /* Reset any previous left positioning */
+    top: -20%;  /* Reset any previous top positioning */
+    padding: 0 40px; /* Optional padding for better readability */
+}
+.home-container2 h4 {
+    position: relative;
+    font-size: 1.4rem;
+    color: #070807;
+    font-weight: 600;
+    margin-bottom: 3px; /* Space between h3 elements */
+    text-align: left; /* Aligns text to the left */
+    left: 96rem; /* Reset any previous left positioning */
+    top: -80%;  /* Reset any previous top positioning */
+    padding: 0 40px; /* Optional padding for better readability */
+}
+.side-image2 {
+    position: relative;
+    top: -110rem;
+    left: 26rem;
+    width: 700x; /* 30% of the viewport width */
+    height: 950px; /* 20% of the viewport height */
+    border-radius: 5px; /* Optional: rounded corners */
+
+}
+.home-container {
+    margin-top: 10px; /* Add space between the image and the container */
+    padding: 20px;
+    background-color: #ed8f37; /* Light background color */
+    text-align: center;
+    width: 84%;
+    height: 105%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+.home-container h2 {
+    font-size: 9rem;
+    color: #fcfcfc; /* Darker text */
+    font-weight: 900;
+
+}
+.home-container h3 {
+    position: relative;
+    font-size: 1.5rem;
+    color: #fcfcfc;
+    font-weight: 100;
+    margin-bottom: 10px; /* Space between h3 elements */
+    text-align: left; /* Aligns text to the left */
+    left: ; /* Reset any previous left positioning */
+    top: -20%;  /* Reset any previous top positioning */
+    padding: 0 20px; /* Optional padding for better readability */
+}
+.home-container h5 {
+    position: relative;
+    font-size: .9rem;
+    color: #fcfcfc;
+    font-weight: 200;
+    margin-bottom: 10px; /* Space between h3 elements */
+    text-align: Justify; /* Aligns text to the left */
+    left: 1.5rem; /* Reset any previous left positioning */
+    top: -5rem;  /* Reset any previous top positioning */
+    padding: 0 20px; /* Optional padding for better readability */
+}
+.home-container h4{
+    position: relative;
+    font-size: .9rem;
+    color: #fcfcfc;
+    font-weight: 200;
+    margin-bottom: 10px; /* Space between h3 elements */
+    text-align: Justify; /* Aligns text to the left */
+    left: -2rem; /* Reset any previous left positioning */
+    top: 1rem;  /* Reset any previous top positioning */
+    padding: 0 20px; /* Optional padding for better readability */
+}
+
+.side-image {
+    position: relative;
+    top: -26rem;
+    left: 10rem;
+    width: 440px; /* 30% of the viewport width */
+    height: 240px; /* 20% of the viewport height */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+
+.home-container p {
+    position: relative;
+    top: -8rem;
+    line-height: -20rem;
+    left: 35%;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Vladimir Script', cursive;
+    color: #822205; /* Slightly lighter text */
+   transform: rotate(-12deg); /* Rotates the text slightly */
+   
+}
+.home-container2 {
+    margin-top: -215px;
+    padding: 20px;
+    background-color: #f7f0ed; /* Light background color */
+    text-align: center;
+    width: 84%;
+    height: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.home-container2 h2 {
+    font-size: 5rem;
+    padding: 40px;
+    text-align: left;
+    line-height: 6rem;
+    color: #070807; /* Darker text */
+    font-weight: 1000;
+    font-family: Copperplate, sans-serif;
+    font-weight: 800;
+
+}
+.home-container2 h3 {
+    position: relative;
+    font-size: .9rem;
+    color: #070807;
+    font-weight: 600;
+    margin-bottom: 10px; /* Space between h3 elements */
+    text-align: left; /* Aligns text to the left */
+    left: 3rem; /* Reset any previous left positioning */
+    top: -20%;  /* Reset any previous top positioning */
+    padding: 0 40px; /* Optional padding for better readability */
+}
+.home-container2 h4 {
+    position: relative;
+    font-size: 1.1rem;
+    color: #070807;
+    font-weight: 600;
+    margin-bottom: 3px; /* Space between h3 elements */
+    text-align: left; /* Aligns text to the left */
+    left: 3rem; /* Reset any previous left positioning */
+    top: 5%;  /* Reset any previous top positioning */
+    padding: 0 40px; /* Optional padding for better readability */
+}
+.side-image2 {
+    position: relative;
+    top: -76rem;
+    left: 10.5rem;
+    width: 700x; /* 30% of the viewport width */
+    height: 750px; /* 20% of the viewport height */
+    border-radius: 5px; /* Optional: rounded corners */
+
+
+
+#menu a {
+    color: #c21d08; /* Text color */
+    font-family: 'Broadway', sans-serif;
+    font-size: 1.3rem; /* Adjust the font size */
+    font-weight: 700;
+    text-transform: uppercase; /* Optional: uppercase text */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.home-textbox {
+    width: 100%; /* Adjust the width of the textbox */
+    padding: 10px;
+    position: relative;
+    font-size: 1.6rem;
+    border: 2px solid #822205; /* Border color to match your theme */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 20px; /* Add spacing from the paragraph */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.home-textbox:focus {
+    outline: none;
+    border-color: #007bff; /* Border color when focused */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
