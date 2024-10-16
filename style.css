@@ -349,7 +349,7 @@ header{
     background-color: #ed8f37; /* Light background color */
     text-align: center;
     width: 84%;
-    height: 80%;
+    height: 61%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px; /* Rounded corners */
@@ -399,7 +399,7 @@ header{
 
 .side-image {
     position: relative;
-    top: -21.2rem;
+    top: -20.9rem;
     left: 4rem;
     width: 310px; /* 30% of the viewport width */
     height: 205px; /* 20% of the viewport height */
@@ -426,7 +426,7 @@ header{
     background-color: #f7f0ed; /* Light background color */
     text-align: center;
     width: 84%;
-    height: 87%;
+    height: 63%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px; /* Rounded corners */
@@ -434,6 +434,9 @@ header{
 }
 .home-container2 h2 {
     font-size: 2.5rem;
+    position: relative;
+    top: -2rem;
+    left: -2rem;
     padding: 40px;
     text-align: left;
     line-height: 3rem;
@@ -450,8 +453,8 @@ header{
     font-weight: 600;
     margin-bottom: 10px; /* Space between h3 elements */
     text-align: left; /* Aligns text to the left */
-    left: -1rem; /* Reset any previous left positioning */
-    top: -20%;  /* Reset any previous top positioning */
+    left: -2rem; /* Reset any previous left positioning */
+    top: -4rem;  /* Reset any previous top positioning */
     padding: 0 40px; /* Optional padding for better readability */
 }
 .home-container2 h4 {
@@ -461,8 +464,8 @@ header{
     font-weight: 600;
     margin-bottom: 3px; /* Space between h3 elements */
     text-align: left; /* Aligns text to the left */
-    left: .5rem; /* Reset any previous left positioning */
-    top: 5%;  /* Reset any previous top positioning */
+    left: .2rem; /* Reset any previous left positioning */
+    top: -3rem;  /* Reset any previous top positioning */
     padding: 0 40px; /* Optional padding for better readability */
 }
 .side-image2 {
