@@ -261,14 +261,14 @@ header{
     }
 .overlay-text {
     position: absolute;
-    top: 43%;
+    top: 60%;
     left: 36%;
-    line-height: 4rem;
+    line-height: 1rem;
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Brush Script MT', cursive;
-    font-size: 4rem;
-    font-weight: 5%;
+    font-size: 2rem;
+    font-weight: 400;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     text-align: center;
     color: #e8bc7d;
@@ -277,12 +277,12 @@ header{
 .overlay-text2 {
     position: absolute;
     top: 75%;
-    left: 83%;
+    left: 80%;
     line-height: 11rem;
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Abril Fatface';
-    font-size: 5.2rem;
+    font-size: 4.7rem;
     font-weight: 600;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 7);
     text-align: center;
@@ -349,7 +349,7 @@ header{
     background-color: #ed8f37; /* Light background color */
     text-align: center;
     width: 84%;
-    height: 98%;
+    height: 80%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px; /* Rounded corners */
@@ -399,10 +399,10 @@ header{
 
 .side-image {
     position: relative;
-    top: -25rem;
-    left: 4.3rem;
-    width: 300px; /* 30% of the viewport width */
-    height: 240px; /* 20% of the viewport height */
+    top: -21.2rem;
+    left: 4rem;
+    width: 310px; /* 30% of the viewport width */
+    height: 205px; /* 20% of the viewport height */
     object-fit: cover; /* Ensures the image covers the entire area without distortion */
     border-radius: 5px; /* Optional: rounded corners */
 }
@@ -421,12 +421,12 @@ header{
    
 }
 .home-container2 {
-    margin-top: -215px;
+    margin-top: -190px;
     padding: 20px;
     background-color: #f7f0ed; /* Light background color */
     text-align: center;
     width: 84%;
-    height: 98%;
+    height: 87%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px; /* Rounded corners */
@@ -461,14 +461,14 @@ header{
     font-weight: 600;
     margin-bottom: 3px; /* Space between h3 elements */
     text-align: left; /* Aligns text to the left */
-    left: 3rem; /* Reset any previous left positioning */
+    left: .5rem; /* Reset any previous left positioning */
     top: 5%;  /* Reset any previous top positioning */
     padding: 0 40px; /* Optional padding for better readability */
 }
 .side-image2 {
     position: relative;
     top: -65rem;
-    left: -0.2rem;
+    left: -1.2rem;
     width: 450x; /* 30% of the viewport width */
     height: 650px; /* 20% of the viewport height */
     border-radius: 5px; /* Optional: rounded corners */
