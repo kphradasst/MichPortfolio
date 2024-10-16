@@ -57,9 +57,12 @@ header{
 
 .home-img-container img {
     width: 166%;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .home-container {
+    position: relative;
+    text-align: center;
     margin-top: 10px; /* Add space between the image and the container */
     padding: 20px;
     background-color: #ed8f37; /* Light background color */
@@ -140,7 +143,8 @@ header{
 .overlay-text {
     position: absolute;
     top: 43%;
-    left: 37%;
+    text-align: center;
+    left: 30rem;
     line-height: 13rem;
     transform: translate(-50%, -50%);
     color: white;
@@ -148,7 +152,6 @@ header{
     font-size: 17rem;
     font-weight: 5%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    text-align: center;
     color: #f06326;
     pointer-events: none; /* So the text doesn't interfere with any clicks on the image */
 }
@@ -252,7 +255,10 @@ header{
     color: #007bff; /* Active link color */
     font-weight: 600;
 }
-@media(max-width:995px){
+@media(max-width:768px){
+.home-img-container img {
+        width: 160%;
+    }
 .overlay-text {
     position: absolute;
     top: 43%;
@@ -270,13 +276,13 @@ header{
 }
 .overlay-text2 {
     position: absolute;
-    top: 70%;
+    top: 75%;
     left: 83%;
     line-height: 11rem;
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Abril Fatface';
-    font-size: 9rem;
+    font-size: 6.3rem;
     font-weight: 600;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 7);
     text-align: center;
@@ -285,7 +291,7 @@ header{
 }
 .home-container2 {
     margin-top: -380px;
-    padding: 20px;
+    padding: 10px;
     background-color: #f7f0ed; /* Light background color */
     text-align: center;
     width: 100%;
@@ -296,7 +302,7 @@ header{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 .home-container2 h2 {
-    font-size: 1.2rem;
+    font-size: .6rem;
     padding: 40px;
     text-align: left;
     line-height: 13rem;
@@ -339,11 +345,11 @@ header{
 }
 .home-container {
     margin-top: 10px; /* Add space between the image and the container */
-    padding: 20px;
+    padding: 10px;
     background-color: #ed8f37; /* Light background color */
     text-align: center;
     width: 84%;
-    height: 105%;
+    height: 85%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px; /* Rounded corners */
@@ -352,14 +358,14 @@ header{
 
 
 .home-container h2 {
-    font-size: 9rem;
+    font-size: 7rem;
     color: #fcfcfc; /* Darker text */
     font-weight: 900;
 
 }
 .home-container h3 {
     position: relative;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #fcfcfc;
     font-weight: 100;
     margin-bottom: 10px; /* Space between h3 elements */
@@ -370,7 +376,7 @@ header{
 }
 .home-container h5 {
     position: relative;
-    font-size: .9rem;
+    font-size: .7rem;
     color: #fcfcfc;
     font-weight: 200;
     margin-bottom: 10px; /* Space between h3 elements */
@@ -381,7 +387,7 @@ header{
 }
 .home-container h4{
     position: relative;
-    font-size: .9rem;
+    font-size: .7rem;
     color: #fcfcfc;
     font-weight: 200;
     margin-bottom: 10px; /* Space between h3 elements */
@@ -394,8 +400,8 @@ header{
 .side-image {
     position: relative;
     top: -26rem;
-    left: 10rem;
-    width: 440px; /* 30% of the viewport width */
+    left: 5.8rem;
+    width: 370px; /* 30% of the viewport width */
     height: 240px; /* 20% of the viewport height */
     object-fit: cover; /* Ensures the image covers the entire area without distortion */
     border-radius: 5px; /* Optional: rounded corners */
@@ -404,14 +410,14 @@ header{
 
 .home-container p {
     position: relative;
-    top: -8rem;
+    top: -6rem;
     line-height: -20rem;
     left: 35%;
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
     font-family: 'Vladimir Script', cursive;
     color: #822205; /* Slightly lighter text */
-   transform: rotate(-12deg); /* Rotates the text slightly */
+   transform: rotate(-14deg); /* Rotates the text slightly */
    
 }
 .home-container2 {
@@ -427,7 +433,7 @@ header{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 .home-container2 h2 {
-    font-size: 5rem;
+    font-size: 3.7rem;
     padding: 40px;
     text-align: left;
     line-height: 6rem;
@@ -444,7 +450,7 @@ header{
     font-weight: 600;
     margin-bottom: 10px; /* Space between h3 elements */
     text-align: left; /* Aligns text to the left */
-    left: 3rem; /* Reset any previous left positioning */
+    left: -1rem; /* Reset any previous left positioning */
     top: -20%;  /* Reset any previous top positioning */
     padding: 0 40px; /* Optional padding for better readability */
 }
@@ -462,17 +468,17 @@ header{
 .side-image2 {
     position: relative;
     top: -76rem;
-    left: 10.5rem;
-    width: 700x; /* 30% of the viewport width */
+    left: 3rem;
+    width: 550x; /* 30% of the viewport width */
     height: 750px; /* 20% of the viewport height */
     border-radius: 5px; /* Optional: rounded corners */
-
+}
 
 
 #menu a {
     color: #c21d08; /* Text color */
     font-family: 'Broadway', sans-serif;
-    font-size: 1.3rem; /* Adjust the font size */
+    font-size: .7rem; /* Adjust the font size */
     font-weight: 700;
     text-transform: uppercase; /* Optional: uppercase text */
     text-decoration: none;
@@ -494,3 +500,32 @@ header{
     border-color: #007bff; /* Border color when focused */
     box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
 }
+nav {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 3rem;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    nav.active {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    nav a {
+        font-size: 1rem;
+        margin: 5px 0;
+        display: block;
+    }
