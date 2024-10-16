@@ -267,7 +267,7 @@ header{
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Brush Script MT', cursive;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 5%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     text-align: center;
@@ -282,7 +282,7 @@ header{
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Abril Fatface';
-    font-size: 6.3rem;
+    font-size: 5.7rem;
     font-weight: 600;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 7);
     text-align: center;
