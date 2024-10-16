@@ -267,7 +267,7 @@ header{
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Brush Script MT', cursive;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 5%;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     text-align: center;
@@ -282,7 +282,7 @@ header{
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Abril Fatface';
-    font-size: 5.7rem;
+    font-size: 5.2rem;
     font-weight: 600;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 7);
     text-align: center;
@@ -349,7 +349,7 @@ header{
     background-color: #ed8f37; /* Light background color */
     text-align: center;
     width: 84%;
-    height: 85%;
+    height: 98%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px; /* Rounded corners */
@@ -358,7 +358,7 @@ header{
 
 
 .home-container h2 {
-    font-size: 7rem;
+    font-size: 5.5rem;
     color: #fcfcfc; /* Darker text */
     font-weight: 900;
 
@@ -376,32 +376,32 @@ header{
 }
 .home-container h5 {
     position: relative;
-    font-size: .7rem;
+    font-size: .6rem;
     color: #fcfcfc;
     font-weight: 200;
-    margin-bottom: 10px; /* Space between h3 elements */
+    margin-bottom: 5px; /* Space between h3 elements */
     text-align: Justify; /* Aligns text to the left */
-    left: 1.5rem; /* Reset any previous left positioning */
+    left: -1.2rem; /* Reset any previous left positioning */
     top: -5rem;  /* Reset any previous top positioning */
     padding: 0 20px; /* Optional padding for better readability */
 }
 .home-container h4{
     position: relative;
-    font-size: .7rem;
+    font-size: .6rem;
     color: #fcfcfc;
     font-weight: 200;
-    margin-bottom: 10px; /* Space between h3 elements */
+    margin-bottom: 5px; /* Space between h3 elements */
     text-align: Justify; /* Aligns text to the left */
-    left: -2rem; /* Reset any previous left positioning */
+    left: -1.8rem; /* Reset any previous left positioning */
     top: 1rem;  /* Reset any previous top positioning */
     padding: 0 20px; /* Optional padding for better readability */
 }
 
 .side-image {
     position: relative;
-    top: -26rem;
-    left: 5.8rem;
-    width: 370px; /* 30% of the viewport width */
+    top: -25rem;
+    left: 4.3rem;
+    width: 300px; /* 30% of the viewport width */
     height: 240px; /* 20% of the viewport height */
     object-fit: cover; /* Ensures the image covers the entire area without distortion */
     border-radius: 5px; /* Optional: rounded corners */
@@ -410,10 +410,10 @@ header{
 
 .home-container p {
     position: relative;
-    top: -6rem;
+    top: -5.5rem;
     line-height: -20rem;
     left: 35%;
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
     font-family: 'Vladimir Script', cursive;
     color: #822205; /* Slightly lighter text */
@@ -433,19 +433,19 @@ header{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 .home-container2 h2 {
-    font-size: 3.7rem;
+    font-size: 2.5rem;
     padding: 40px;
     text-align: left;
-    line-height: 6rem;
+    line-height: 3rem;
     color: #070807; /* Darker text */
-    font-weight: 1000;
+    font-weight: 1200;
     font-family: Copperplate, sans-serif;
     font-weight: 800;
 
 }
 .home-container2 h3 {
     position: relative;
-    font-size: .9rem;
+    font-size: .6rem;
     color: #070807;
     font-weight: 600;
     margin-bottom: 10px; /* Space between h3 elements */
@@ -456,7 +456,7 @@ header{
 }
 .home-container2 h4 {
     position: relative;
-    font-size: 1.1rem;
+    font-size: .9rem;
     color: #070807;
     font-weight: 600;
     margin-bottom: 3px; /* Space between h3 elements */
@@ -467,10 +467,10 @@ header{
 }
 .side-image2 {
     position: relative;
-    top: -76rem;
-    left: 3rem;
-    width: 550x; /* 30% of the viewport width */
-    height: 750px; /* 20% of the viewport height */
+    top: -65rem;
+    left: -0.2rem;
+    width: 450x; /* 30% of the viewport width */
+    height: 650px; /* 20% of the viewport height */
     border-radius: 5px; /* Optional: rounded corners */
 }
 
