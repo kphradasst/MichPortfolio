@@ -36,11 +36,11 @@ header{
 }
 .yellow-bg {
     background-color: #d17906;
-    width: 40%; /* Adjust the width */
+    width: 80%; /* Adjust the width */
     height: 650px; /* Adjust the height */
     position: absolute;
     top: 140%;
-    left: 10%;
+    left: 5%;
     margin-top: -300px;
 max-width: 1200px;
 }
@@ -80,11 +80,11 @@ font-weight: 20px;
 .red-bg {
     background-color: #e1f5e6;
     max-width: 1200px;
-    width: 40%; /* Adjust the width */
+    width: 80%; /* Adjust the width */
     height: 650px; /* Adjust the height */
     position: absolute;
     top: 2%;
-    left: 10%;
+    left: 5%;
     margin-bottom: 1px;
 max-width: 1200px;
 overflow: hidden;
@@ -132,12 +132,12 @@ left: 50px;
 }
 @media (max-width: 768px) {
     .red-bg {
-        width: 20%;  /* Make it wider on smaller screens */
+        width: 10%;  /* Make it wider on smaller screens */
         padding: 10px; /* Adjust padding if needed */
 margin-bottom: 1px;
     }
     .yellow-bg {
-        width: 20%;  /* Make it wider on smaller screens */
+        width: 10%;  /* Make it wider on smaller screens */
         padding: 10px; /* Adjust padding if needed */
 margin-top: -300px;
     }
@@ -147,12 +147,12 @@ margin-top: -300px;
 /* Media Query for Very Small Devices */
 @media (max-width: 480px) {
     .red-bg {
-        width: 20%;  /* Maximize width for small screens */
+        width: 10%;  /* Maximize width for small screens */
         padding: 5px; /* Reduce padding further */
 margin-bottom: 1px;
     }
    .yellow-bg {
-        width: 20%;  /* Maximize width for small screens */
+        width: 10%;  /* Maximize width for small screens */
         padding: 5px; /* Reduce padding further */
 margin-top: -300px;
     }
