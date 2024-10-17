@@ -36,7 +36,7 @@ header{
 }
 .yellow-bg {
     background-color: #d17906;
-    width: 768px; /* Adjust the width */
+    width: 480px; /* Adjust the width */
     height: 650px; /* Adjust the height */
     position: absolute;
     top: 140%;
@@ -80,7 +80,7 @@ font-weight: 20px;
 .red-bg {
     background-color: #e1f5e6;
     max-width: 1200px;
-    width: 768px; /* Adjust the width */
+    width: 480px; /* Adjust the width */
     height: 650px; /* Adjust the height */
     position: absolute;
     top: 2%;
