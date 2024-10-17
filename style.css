@@ -132,12 +132,12 @@ left: 50px;
     .red-bg {
         width: 90%;  /* Make it wider on smaller screens */
         padding: 10px; /* Adjust padding if needed */
-margin-bottom: 10px;
+margin-bottom: 1px;
     }
     .yellow-bg {
         width: 90%;  /* Make it wider on smaller screens */
         padding: 10px; /* Adjust padding if needed */
-margin-top: 10px;
+margin-top: -300px;
     }
 
 }
@@ -147,12 +147,12 @@ margin-top: 10px;
     .red-bg {
         width: 95%;  /* Maximize width for small screens */
         padding: 5px; /* Reduce padding further */
-margin-bottom: 10px;
+margin-bottom: 1px;
     }
    .yellow-bg {
         width: 95%;  /* Maximize width for small screens */
         padding: 5px; /* Reduce padding further */
-margin-top: 10px;
+margin-top: -300px;
     }
    .responsive-image {
         max-width: 95%; /* Ensure image fits within small screens */
