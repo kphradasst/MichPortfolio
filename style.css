@@ -36,13 +36,13 @@ header{
 }
 .yellow-bg {
     background-color: #d17906;
-    width: 80%; /* Adjust the width */
+    width: 768px; /* Adjust the width */
     height: 650px; /* Adjust the height */
     position: absolute;
     top: 140%;
     left: 5%;
     margin-top: -300px;
-max-width: 1200px;
+    max-width: 1200px;
 }
 .yellow-bg h5 {
     position: relative;
@@ -80,13 +80,12 @@ font-weight: 20px;
 .red-bg {
     background-color: #e1f5e6;
     max-width: 1200px;
-    width: 80%; /* Adjust the width */
+    width: 768px; /* Adjust the width */
     height: 650px; /* Adjust the height */
     position: absolute;
     top: 2%;
     left: 5%;
     margin-bottom: 1px;
-max-width: 1200px;
 overflow: hidden;
 }
 
